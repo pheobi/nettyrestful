@@ -1,9 +1,9 @@
-package com.another.netty.controller;
+package com.another.tomcat.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.another.netty.domain.UserDo;
-import com.another.netty.service.UserService;
+import com.another.tomcat.domain.UserDo;
+import com.another.tomcat.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

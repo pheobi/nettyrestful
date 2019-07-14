@@ -2,7 +2,7 @@
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-    <class name="com.another.netty.domain.UserDo" table="user">
+    <class name="com.another.tomcat.domain.UserDo" table="user">
         <id name="id" column="id">
             <generator class="native"></generator>
         </id>

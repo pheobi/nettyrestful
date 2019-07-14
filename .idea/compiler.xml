@@ -6,11 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="netty-another" />
+        <module name="netty-springmvc" />
         <module name="nettyanother" />
         <module name="nettyspringmvc" />
         <module name="restfulExe" />
+        <module name="tomcat-another" />
         <module name="tomcatanother" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="netty-another" target="8" />
+      <module name="netty-restful" target="1.8" />
+      <module name="netty-springmvc" target="1.8" />
+      <module name="restfulExe" target="1.8" />
+      <module name="tomcat-another" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

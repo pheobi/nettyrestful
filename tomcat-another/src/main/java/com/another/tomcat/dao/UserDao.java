@@ -1,7 +1,7 @@
-package com.another.netty.dao;
+package com.another.tomcat.dao;
 
-import com.another.netty.domain.UserDo;
-import com.another.netty.utils.HibernateUtils;
+import com.another.tomcat.domain.UserDo;
+import com.another.tomcat.utils.HibernateUtils;
 import org.hibernate.Session;
 import org.hibernate.query.Query;
 
@@ -27,12 +27,11 @@ public class UserDao {
         return query.list();
     }
 
+
     public List<UserDo> listUser() {
         Session session = HibernateUtils.getCurrentSession();
         String sql = "from UserDo";
         Query query = session.createQuery(sql);
         return query.list();
     }
-
-
 }

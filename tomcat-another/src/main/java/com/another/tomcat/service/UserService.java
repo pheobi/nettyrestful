@@ -1,12 +1,13 @@
-package com.another.netty.service;
+package com.another.tomcat.service;
 
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.another.netty.dao.UserDao;
-import com.another.netty.domain.UserDo;
-import com.another.netty.utils.HibernateUtils;
+import com.another.tomcat.dao.UserDao;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.springframework.util.CollectionUtils;
+import com.another.tomcat.domain.UserDo;
+import com.another.tomcat.utils.HibernateUtils;
 
 import java.io.Serializable;
 import java.util.List;
@@ -24,13 +25,7 @@ public class UserService {
 
     UserDao userDao = new UserDao();
     public JSONObject regist(String userName ,String pwd) {
-        Session session =null;
-        try {
-            session = HibernateUtils.getCurrentSession();
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-
+        Session session = HibernateUtils.getCurrentSession();
         Transaction tr = session.beginTransaction();
         JSONObject resultJson = new JSONObject();
         try {

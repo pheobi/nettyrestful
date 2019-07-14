@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/netty-another/netty-another.iml" filepath="$PROJECT_DIR$/netty-another/netty-another.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-restful.iml" filepath="$PROJECT_DIR$/netty-restful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-springmvc/netty-springmvc.iml" filepath="$PROJECT_DIR$/netty-springmvc/netty-springmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/restfulExe/restfulExe.iml" filepath="$PROJECT_DIR$/restfulExe/restfulExe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tomcat-another/tomcat-another.iml" filepath="$PROJECT_DIR$/tomcat-another/tomcat-another.iml" />
+    </modules>
+  </component>
+</project>
